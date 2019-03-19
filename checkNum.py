@@ -8,7 +8,9 @@ class number:
             print("Negative")
         else:
             print("Zero")
-    
-inp=int(input())
-obj=number()
-obj.check(inp)
+try:  
+    inp=int(input())
+    obj=number()
+    obj.check(inp)
+except ValueError:
+    print("Invalid Input")
