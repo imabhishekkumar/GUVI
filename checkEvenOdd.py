@@ -3,7 +3,7 @@ class number:
     def check(self,value=None):
         self.value=value
         if(self.value<1):
-            print("Invalid")
+            print("invalid")
         elif(self.value%2==0):
             print("Even")
         else:
