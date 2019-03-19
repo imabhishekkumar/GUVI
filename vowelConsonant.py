@@ -5,7 +5,7 @@ class word:
         vowels="aeiou"
         consonant="qwrtypsdfghjklzxcvbnm"
         if(self.value.lower() in vowels):
-            print("Vowels")
+            print("Vowel")
         elif(self.value.lower() in consonant):
             print("Consonant")
         else:
