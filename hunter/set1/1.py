@@ -1,8 +1,11 @@
 n = int(input())
 inp = list(input().split())
 inpSet =list(set(inp))
-output =[]
+
 for i in inpSet:
     inp.remove(i)
-print(' '.join(sorted(set(inp))),end ='')
-
+output =sorted(set(inp))
+if(len(output)!=0):
+    print(' '.join(),end ='')
+else:
+    print("unique")
