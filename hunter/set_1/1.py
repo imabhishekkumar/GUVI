@@ -6,6 +6,6 @@ for i in inpSet:
     inp.remove(i)
 output =sorted(set(inp))
 if(len(output)!=0):
-    print(' '.join(),end ='')
+    print(' '.join(output),end ='')
 else:
     print("unique")
