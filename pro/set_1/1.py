@@ -1,13 +1,13 @@
+def checkLongest(str1,str2):
+        if(str1 in str2):
+            return str1
+        else:
+            return checkLongest(str1[0:len(str1)-2],str2)
+        
+
 inp = int(input())
 inpList= []
-n=1
-for i in range(0,inp):
+for _ in range(0,inp):
     inpList.append(input())
-for i in range(1,inp):
-    temp = inpList[0][0:i]
-    print(temp)
-    if(temp not in inpList[i]):
-        break
-print(temp)
-
-    
+inpList.sort()
+print(checkLongest(inpList[0],inpList[inp-1]))
