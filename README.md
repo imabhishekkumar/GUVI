@@ -16,3 +16,22 @@ Sorting(n^2), Matrix multiplication (n^3)
 Knapsack,Subset sum 
 ### Factorial time O(n!)
 Traveling salesperson
+
+## Trees 
+### Height of the tree
+### Traversal
+- PreOrder
+- InOrder
+- PostOrder
+### Mirror
+### Identical
+
+## Graph
+### BFS
+### DFS
+### MST
+
+
+## Pro
+
+## Hunter
