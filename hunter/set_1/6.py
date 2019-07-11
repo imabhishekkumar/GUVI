@@ -7,6 +7,7 @@ for i in range(n):
     else:
         print(inp[i])
         break
-        
+if(len(ans)==n):
+    print("unique")
 
 
